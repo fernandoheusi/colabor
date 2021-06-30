@@ -170,7 +170,7 @@ const ItensLoja = function() {
     )
 }
 
-const Loja = () => {
+export const Loja = () => {
     return (
         <>
             <Carrousel/>
@@ -181,5 +181,3 @@ const Loja = () => {
         </>
     )
 }
-
-export default Loja;

@@ -1,12 +1,13 @@
 import {Route, Switch} from 'react-router-dom';
 import {useState} from 'react';
 import Layout from '../layout/Layout';
-import Loja from '../loja/Loja';
-import Item from '../loja/Item';
-import Blog from '../blog/Blog';
-import Contato from '../contato/Contato';
-import Login from '../login/Login';
 import Admin from '../admin/Admin';
+
+import Blog from '../../pages/Blog';
+import Contato from '../contato/Contato';
+import Login from '../../pages/login/Login';
+import Item from '../../pages/Item/Item';
+import { Loja } from '../../pages/Loja';
 
 function tryParse(str: string | null) {
     if(!str)
